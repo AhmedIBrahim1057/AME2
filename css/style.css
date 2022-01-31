@@ -118,7 +118,7 @@ a[href^="tel"] {
 
 b {
     font-weight: 400;
-    color: #b19777;
+    color: #325887;
 }
 /* text field */
 button,
@@ -165,7 +165,7 @@ textarea {
 input:focus,
 textarea:focus {
     border-bottom-width: 1px;
-    border-color: #b19777;
+    border-color: #325887;
 }
 input[type="submit"],
 input[type="reset"],
@@ -177,7 +177,7 @@ button {
     line-height: 1.75em;
     -webkit-transition: background-color .15s ease-out;
     transition: background-color .15s ease-out;
-    background: #b19777;
+    background: #325887;
     border: 1px solid transparent;
 }
 input[type="submit"]:hover,
@@ -336,7 +336,7 @@ input[type="checkbox"] {
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
     background: transparent;
-    border: 1px solid #b19777;
+    border: 1px solid #325887;
 }
 
 
@@ -348,7 +348,7 @@ input[type="checkbox"] {
     padding: 0 0 90px 0;
 }
 .section-padding h6 {
-    color: #b19777;
+    color: #325887;
     font-size: 20px;
     margin-bottom: 20px;
 }
@@ -364,12 +364,12 @@ input[type="checkbox"] {
     margin-bottom: 30px;
 }
 .section-title span {
-    color: #b19777;
+    color: #325887;
 }
 .section-title2 {
     font-size: 35px;
     font-weight: 300;
-    color: #b19777;
+    color: #325887;
     position: relative;
     line-height: 1.25em;
     margin-bottom: 30px;
@@ -411,7 +411,7 @@ input[type="checkbox"] {
     position: relative;
     z-index: 1021;
     float: left;
-    background: #272727;
+    /* background: #272727; */
     padding: 30px 45px;
 }
 .bauen-menu {}
@@ -481,7 +481,7 @@ input[type="checkbox"] {
     width: 100%;
 }
 .bauen-menu ul li a.active {
-    color: #b19777;
+    color: #325887;
 }
 .bauen-menu ul li a.active:after {
     height: 0px;
@@ -501,7 +501,7 @@ input[type="checkbox"] {
     transition: 0.3s;
 }
 .bauen-menu > ul > li.open > a {
-    color: #b19777;
+    color: #325887;
     text-decoration: none;
     position: relative;
     padding: 0;
@@ -532,7 +532,7 @@ input[type="checkbox"] {
 .bauen-menu ul ul li:hover > a,
 .bauen-menu ul ul li.open > a,
 .bauen-menu ul ul li.active > a {
-    color: #b19777;
+    color: #325887;
 }
 .bauen-menu ul ul ul li a {
     margin-left: 24px;
@@ -552,7 +552,7 @@ input[type="checkbox"] {
     font-size: 15px;
 }
 .bauen-menu-footer a {
-    color: #b19777;
+    color: #325887;
 }
 .separator {
     width: 16%;
@@ -579,6 +579,8 @@ input[type="checkbox"] {
     z-index: 900;
     width: 100%;
     padding-right: 11%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .bauen-header .bauen-logo {
     line-height: 0;
@@ -590,8 +592,9 @@ input[type="checkbox"] {
     text-align: center
 }
 .bauen-header .bauen-logo img {
-    width: 280px;
+    width: 350px;
     margin-bottom: 5px;
+    margin-top: 15px;
 }
 
 
@@ -602,7 +605,7 @@ input[type="checkbox"] {
     display: block;
     width: 100%;
     position: relative;
-    color: #b19777;
+    color: #325887;
     letter-spacing: 9px;
     margin-bottom: 0;
 }
@@ -654,9 +657,15 @@ input[type="checkbox"] {
     line-height: 1em;
     padding: 0;
     color: #fff;
+    filter:  brightness(0) invert(1);
     font-size: 30px;
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
+}
+
+.bauen-header.scrolled .bauen-logo img{
+    width: 300px;
+    margin-top: 5px !important;
 }
 
 .bauen-header.scrolled .bauen-logo  h2,
@@ -671,7 +680,7 @@ input[type="checkbox"] {
 
 .bauen-header.scrolled .bauen-nav-toggle {
     top: -1px !important;
-    margin-top: 25px;
+    margin-top: -10px;
 }
 .bauen-header.awake {
     -webkit-transition: .3s all ease;
@@ -714,7 +723,7 @@ input[type="checkbox"] {
     right: 0;
     display: none;
     border-bottom: none !important;
-    margin-top: 60px;
+    margin-top: 0px;
 }
 .bauen-nav-toggle:hover i:before {
     top: -7px;
@@ -787,6 +796,7 @@ input[type="checkbox"] {
 .header {
     min-height: 100vh;
     overflow: hidden;
+    
 }
 .header .caption .o-hidden {
     display: inline-block;
@@ -928,8 +938,8 @@ hr {
 .owl-theme .owl-nav [class*=owl-]:hover {
     transform: scale(0.9);
     background: transparent;
-    border: 1px solid #b19777;
-    color: #b19777;
+    border: 1px solid #325887;
+    color: #325887;
 }
 @media screen and (max-width: 768px) {
     .owl-nav {
@@ -997,8 +1007,8 @@ hr {
     transition: all .4s;
 }
 .social-left li a:hover {
-    color: #b19777;
-    border: 1px solid #b19777;
+    color: #325887;
+    border: 1px solid #325887;
 }
 @media (max-width: 1259.98px) {
     .left-panel {
@@ -1036,7 +1046,7 @@ hr {
     font-size: 10px;
 }
 .banner-header h5 {
-    color: #b19777;
+    color: #325887;
     font-size: 17px;
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
@@ -1046,7 +1056,7 @@ hr {
     font-size: 40px;
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
-    color: #b19777;
+    color: #325887;
     position: relative;
     margin-bottom: 10px;
     line-height: 1.2em;
@@ -1060,7 +1070,7 @@ hr {
     animation-delay: 1s;
 }
 .banner-header p a {
-    color: #b19777;
+    color: #325887;
 }
 @media screen and (max-width: 767px) {
     .banner-header {
@@ -1073,7 +1083,7 @@ hr {
         margin-bottom: 10px;
     }
     .banner-header h6 a:hover {
-        color: #b19777;
+        color: #325887;
     }
     .banner-header h6 i {
         margin: 0 15px;
@@ -1223,7 +1233,7 @@ hr {
 }
 .team .info .social a {
     font-size: 15px;
-    color: #b19777;
+    color: #325887;
     margin: 0 5px;
 }
 .team .info .social a:hover {
@@ -1275,7 +1285,7 @@ hr {
     display: inline;
     margin-right: 3px;
     position: relative;
-    color: #b19777;
+    color: #325887;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px
@@ -1332,7 +1342,7 @@ hr {
     border-radius: 50%;
 }
 .team-details .content .social-icons.square li a:hover {
-  border: 1px solid #b19777;
+  border: 1px solid #325887;
 }
 @media only screen and (max-width: 480px) {
 .team-details .content .info-list li {
@@ -1459,7 +1469,7 @@ hr {
     top: 0;
     right: -20px;
     bottom: 0;
-    background: #b19777;
+    background: #325887;
     border-radius: 0;
     opacity: 0;
     transition: all 0.3s ease;
@@ -1561,7 +1571,7 @@ hr {
 .projects .item .con h6,
 .projects .item .con h6 a {
     position: relative;
-    color: #b19777;
+    color: #325887;
     font-size: 13px;
     font-weight: 400;
     margin-top: 0px;
@@ -1589,7 +1599,7 @@ hr {
     font-size: 20px;
 }
 .projects .item .con i:hover {
-    color: #b19777;
+    color: #325887;
 }
 .projects .item .con .butn-light {
     margin-left: 0;
@@ -1598,7 +1608,7 @@ hr {
     padding: 11px 30px;
 }
 .projects .item .con .butn-light:hover {
-    border-color: #b19777;
+    border-color: #325887;
 }
 /* line animation */
 .projects .item .line {
@@ -1645,7 +1655,7 @@ hr {
 }
 
 .projects-prev-next a:hover {
-    color: #b19777;
+    color: #325887;
 }
 .projects-prev-next .projects-prev-next-left a i {
   margin-right: 5px;
@@ -1737,7 +1747,7 @@ hr {
 .project-masonry-wrapper .project-masonry-item-category {
     font-size: 14px;
     line-height: 1.5em;
-    color: #b19777;
+    color: #325887;
     font-weight: 300;
     letter-spacing: 5px;
     text-transform: uppercase;
@@ -1797,7 +1807,7 @@ hr {
     margin-right: 0;
 }
 .bauen-project-filter li.active {
-    color: #b19777;
+    color: #325887;
     content: "";
     left: 0;
     bottom: -4px;
@@ -1807,7 +1817,7 @@ hr {
     transition: 700ms cubic-bezier(0.17, 0.67, 0, 1.01);
 }
 .bauen-project-filter li:hover {
-    color: #b19777;
+    color: #325887;
 }
 .bauen-project-wrap {
     padding-bottom: 90px;
@@ -1833,7 +1843,7 @@ hr {
     margin-bottom: 0px;
 }
 .bauen-project-wrap p {
-    color: #b19777;
+    color: #325887;
     font-family: 'Oswald', sans-serif;
     font-size: 13px;
     font-weight: 300;
@@ -1852,7 +1862,7 @@ hr {
     margin-right: 20px;
 }
 .bauen-project-link {
-    color: #b19777;
+    color: #325887;
     font-size: 17px;
     font-weight: 400;
     position: relative;
@@ -1867,7 +1877,7 @@ hr {
     display: inline-block;
     width: 80px;
     height: 1px;
-    background: #b19777;
+    background: #325887;
     position: absolute;
     left: 0;
     bottom: 15px;
@@ -1875,7 +1885,7 @@ hr {
 }
 .bauen-project-link:before:hover {
     padding-left: 5px;
-    color: #b19777;
+    color: #325887;
     transition: all 0.3s ease-in-out;
 }
 .bauen-project-link i {
@@ -1890,11 +1900,11 @@ hr {
 }
 .bauen-project-link:hover i {
     padding-left: 5px;
-    color: #b19777;
+    color: #325887;
     transition: all 0.3s ease-in-out;
 }
 .bauen-project-link:hover {
-    color: #b19777;
+    color: #325887;
 }
 @media (max-width: 991px) {
     .bauen-project-wrap {
@@ -1976,7 +1986,7 @@ hr {
     text-transform: uppercase;
 }
 .projects4 .caption h6 {
-    color: #b19777;
+    color: #325887;
     font-family: 'Oswald', sans-serif;
     font-size: 13px;
     font-weight: 300;
@@ -2031,7 +2041,7 @@ hr {
     margin-right: 0;
 }
 .bauen-gallery-filter li.active {
-    color: #b19777;
+    color: #325887;
     content: "";
     left: 0;
     bottom: -4px;
@@ -2041,7 +2051,7 @@ hr {
     transition: 700ms cubic-bezier(0.17, 0.67, 0, 1.01);
 }
 .bauen-gallery-filter li:hover {
-    color: #b19777;
+    color: #325887;
 }
 .gallery-masonry-wrapper .gallery-masonry-item-img-link {
   display: block;
@@ -2100,7 +2110,7 @@ hr {
 .gallery-masonry-wrapper .gallery-masonry-item-category {
     font-size: 14px;
     line-height: 1.5em;
-    color: #b19777;
+    color: #325887;
     font-weight: 300;
     letter-spacing: 5px;
     text-transform: uppercase;
@@ -2305,10 +2315,10 @@ button.mfp-arrow {
     z-index: 0;
 }
 .play-button.color {
-    color: #b19777;
+    color: #325887;
 }
 .play-button.color .circle-fill circle {
-    fill: #b19777;
+    fill: #325887;
 }
 
 /* video gallery */
@@ -2341,7 +2351,7 @@ button.mfp-arrow {
 .video-gallery-polygon:hover {
     background: #fff;
     border: 1px solid #fff;
-    color: #b19777;
+    color: #325887;
 }
 
 /* testimonials style */
@@ -2412,7 +2422,7 @@ button.mfp-arrow {
     padding-top: 7px;
     font-weight: 400;
     font-family: 'Didact Gothic', sans-serif;
-    color: #b19777;
+    color: #325887;
 }
 .testimonials .item .info span {
     font-size: 16px;
@@ -2424,7 +2434,7 @@ button.mfp-arrow {
     float: right;
 }
 .testimonials .item .info i {
-    color: #b19777;
+    color: #325887;
     font-size: 10px;
 }
 
@@ -2479,7 +2489,7 @@ button.mfp-arrow {
     position: relative;
 }
 .bauen-blog .item .con .category a:hover {
-    color: #b19777;
+    color: #325887;
 }
 .bauen-blog .item .con .category a:last-child {
     margin-right: 0;
@@ -2489,7 +2499,7 @@ button.mfp-arrow {
 }
 .bauen-blog .item .con h5,
 .bauen-blog .item .con h5 a {
-    color: #b19777;
+    color: #325887;
     font-size: 25px;
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
@@ -2498,7 +2508,7 @@ button.mfp-arrow {
 }
 .bauen-blog .item .con h5:hover,
 .bauen-blog .item .con h5 a:hover {
-    color: #b19777;
+    color: #325887;
 }
 .bauen-blog .item .con p {
     color: #fff;
@@ -2543,7 +2553,7 @@ button.mfp-arrow {
 .bauen-blog2 .content .date h3 {
     font-size: 65px;
     font-weight: 500;
-    color: #b19777;
+    color: #325887;
     margin-bottom: 0px;
 }
 .bauen-blog2 .content .date h6 {
@@ -2573,7 +2583,7 @@ button.mfp-arrow {
   font-weight: 300;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #b19777;
+  color: #325887;
   padding-left: 40px;
   position: relative;
 }
@@ -2581,7 +2591,7 @@ button.mfp-arrow {
   content: '';
   width: 30px;
   height: 1px;
-  background: #b19777;
+  background: #325887;
   position: absolute;
   top: 50%;
   left: 0px;
@@ -2597,7 +2607,7 @@ button.mfp-arrow {
     text-transform: uppercase;
 }
 .bauen-blog2 .content .info .tags {
-  color: #b19777;
+  color: #325887;
 }
 @media screen and (max-width: 991px) {
     .bauen-blog2 .content {
@@ -2667,7 +2677,7 @@ button.mfp-arrow {
     font-weight: 400;
 	font-size: 12px;
     letter-spacing: 2px;
-    color: #b19777;
+    color: #325887;
     font-family: 'Didact Gothic', sans-serif;
     text-transform: uppercase;
 	margin-bottom: 5px;
@@ -2684,7 +2694,7 @@ button.mfp-arrow {
     color: #fff;
 }
 .bauen-blog3 .post-cont h5 a:hover {
-    color: #b19777;
+    color: #325887;
 }
 .bauen-blog3 .post-cont .date {
     margin-top: 0px;
@@ -2695,7 +2705,7 @@ button.mfp-arrow {
 	margin-bottom: 5px;
 }
 .bauen-blog3 .post-cont .date a {
-    color: #b19777;
+    color: #325887;
 }
 .bauen-blog3 .post-cont i {
     color: #777;
@@ -2723,10 +2733,10 @@ button.mfp-arrow {
     color: #999;
 }
 .blog-sidebar .widget ul li a.active {
-    color: #b19777;
+    color: #325887;
 }
 .blog-sidebar .widget ul li a:hover {
-    color: #b19777;
+    color: #325887;
 }
 .blog-sidebar .widget ul li:last-child {
     margin-bottom: 0;
@@ -2786,7 +2796,7 @@ button.mfp-arrow {
 .blog-sidebar .tags li {
     margin: 3px !important;
     padding: 6px 16px;
-    background-color: #b19777;
+    background-color: #325887;
     color: #fff !important;
     float: left;
 }
@@ -2832,13 +2842,13 @@ button.mfp-arrow {
     opacity: 1;
     text-decoration: none;
     background: transparent;
-    border: 1px solid #b19777;
-    color: #b19777;
+    border: 1px solid #325887;
+    color: #325887;
 }
 .bauen-pagination-wrap li a.active {
     background-color: transparent;
-    border: 1px solid #b19777;
-    color: #b19777;
+    border: 1px solid #325887;
+    color: #325887;
 }
 @media screen and (max-width: 768px) {
     .bauen-pagination-wrap {
@@ -2859,7 +2869,7 @@ button.mfp-arrow {
 }
 .bauen-comment-section h3 {
     font-size: 16px;
-    color: #b19777;
+    color: #325887;
     font-family: 'Didact Gothic', sans-serif;
     font-weight: 400;
 }
@@ -2891,7 +2901,7 @@ button.mfp-arrow {
 }
 .bauen-repay {
     font-size: 14px;
-    color: #b19777;
+    color: #325887;
     margin: 0;
     font-weight: 400;
 }
@@ -2914,7 +2924,7 @@ button.mfp-arrow {
     font-weight: 300;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
-    background: #b19777;
+    background: #325887;
     color: #fff;
     padding: 13px 30px;
     margin: 0;
@@ -3024,14 +3034,14 @@ button.mfp-arrow {
     transition: all .4s;
 }
 .main-footer .abot .social-icon a:hover {
-    border: 1px solid #b19777;
+    border: 1px solid #325887;
     background: transparent;
-    color: #b19777;
+    color: #325887;
 }
 .main-footer .fothead h6 {
     margin-bottom: 0px;
     font-family: 'Oswald', sans-serif;
-    color: #b19777;
+    color: #325887;
     font-size: 17px;
 }
 .main-footer .fotcont .fothead h6 {
@@ -3064,7 +3074,7 @@ button.mfp-arrow {
     margin-top: 7px;
 }
 .main-footer .sub-footer p a:hover {
-    color: #b19777;
+    color: #325887;
 }
 .main-footer .sub-footer p.right {
     text-align: right;
@@ -3144,7 +3154,7 @@ button.mfp-arrow {
     right: 100%;
     height: 100%;
     width: 100%;
-    background: #b19777;
+    background: #325887;
 }
 .pace.pace-inactive {
     width: 100vw;
@@ -3204,7 +3214,7 @@ button.mfp-arrow {
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    color: #b19777;
+    color: #325887;
     font-family: 'Oswald', sans-serif;
     z-index: 9999;
 }
@@ -3286,10 +3296,10 @@ button.mfp-arrow {
     box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.2);
 }
 .progress-wrap::after {
-    color: #b19777;
+    color: #325887;
 }
 .progress-wrap svg.progress-circle path {
-    stroke: #b19777;
+    stroke: #325887;
 }
 
 
@@ -3324,7 +3334,7 @@ button.mfp-arrow {
     font-family: 'Oswald', sans-serif;
 }
 .accordion-box .block .acc-btn .count {
-  color: #b19777;
+  color: #325887;
   padding-right: 3px;
 }
 .accordion-box .block .acc-btn:before {
@@ -3334,7 +3344,7 @@ button.mfp-arrow {
     height: 30px;
     font-size: 14px;
     font-weight: normal;
-    color: #b19777;
+    color: #325887;
     line-height: 30px;
     content: "\e61a";
     font-family: "Themify";
@@ -3342,7 +3352,7 @@ button.mfp-arrow {
 }
 .accordion-box .block .acc-btn.active {
   background-color: #323232;
-    color: #b19777;
+    color: #325887;
 }
 .accordion-box .block .acc-btn.active:before {
   color: "Themify";
@@ -3400,7 +3410,7 @@ button.mfp-arrow {
     left: 0;
     transform: translateY(-50%);
     font-size: 15px;
-    color: #b19777;
+    color: #325887;
 }
 .pricing-card-list li i.unavailable {
   color: #999;
@@ -3409,7 +3419,7 @@ button.mfp-arrow {
   opacity: 1;
 }
 .pricing-card:hover i {
-  color: #b19777;
+  color: #325887;
 }
 .pricing-card-name {
       line-height: 1;
@@ -3417,7 +3427,7 @@ button.mfp-arrow {
     font-size: 16px;
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
-    color: #b19777;
+    color: #325887;
     margin-bottom: 20px;
     letter-spacing: 5px;
     font-weight: 300;
@@ -3438,7 +3448,7 @@ button.mfp-arrow {
     font-weight: 300;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
-    background: #b19777;
+    background: #325887;
     color: #fff;
     padding: 13px 30px;
     margin: 0;
@@ -3561,8 +3571,8 @@ button.mfp-arrow {
   text-align: left;
 }
 .process .item .cont:hover {
-  background-color: #b19777;
-  border: 1px solid #b19777;
+  background-color: #325887;
+  border: 1px solid #325887;
 }
 .process .item .cont:hover h6 {
   color: #fff;
@@ -3571,7 +3581,7 @@ button.mfp-arrow {
   color: #fff;
 }
 .process .item .icon {
-    color: #b19777;
+    color: #325887;
     font-size: 30px;
     width: 80px;
     height: 80px;
@@ -3662,7 +3672,7 @@ button.mfp-arrow {
     margin-bottom: 30px;
 }
 .comming h6 {
-    color: #b19777;
+    color: #325887;
     font-size: 13px;
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
@@ -3707,14 +3717,14 @@ button.mfp-arrow {
     width: 100%;
     padding: 11px 50px 11px 11px;
     background-color: transparent;
-    border: 1px solid #b19777;
+    border: 1px solid #325887;
     border-radius: 0px;
     color: #fff;
     margin-bottom: 15px;
 	outline: none;
 }
 .comming form button {
-    background-color: #b19777;
+    background-color: #325887;
     padding: 8px 20px;
     border-radius: 0px;
     color: #fff;
@@ -3748,7 +3758,7 @@ button.mfp-arrow {
 	letter-spacing: 5px;
 }
 .go-back a:hover {
-	color: #b19777;
+	color: #325887;
 }
 .go-back a span{
 	transition: all .5s;
@@ -3792,13 +3802,11 @@ button.mfp-arrow {
     }
     .bauen-header .bauen-logo img {
         margin-bottom: 0px;
+        margin-top: 25px;
     }
     .bauen-header .bauen-logo  h2,
     .bauen-header .bauen-logo  h2 span {
     display: none;
-    }
-    .bauen-header {
-        background-color: #272727;
     }
     .bauen-nav-toggle {
         margin-top: 25px;
